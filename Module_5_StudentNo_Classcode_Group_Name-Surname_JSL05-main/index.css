@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #221f24; /* Dark purple background */
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #FFD700; /* Gold color for headings */
+    font-family: 'Pacifico', cursive; /* Fun font for headings */
+    font-size: 36px; /* Larger font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for headings */
+}
+
+.playlist {
+    margin: 20px;
+    padding: 20px; /* Increased padding */
+    background-color: #6A5ACD; /* Purple background for playlists */
+    display: inline-block;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for playlists */
+}
+
+.song {
+    margin: 10px 0; /* Increased margin */
+}
+
+.song-title {
+    font-weight: bold;
+    color: #FFD700; /* Gold color for song titles */
+    text-decoration: underline; /* Underline effect for song titles */
+}
+
+.song-title:hover {
+    text-decoration: none; /* Remove underline on hover */
+    color: #00FF00; /* Green color on hover */
+}
